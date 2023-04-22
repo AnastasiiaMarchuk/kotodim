@@ -173,8 +173,10 @@ box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
 }
 
 .cat-card {
+    height: 360px;
 width: 100%;
 }
+
 .cat-card-wrapper{
 padding: 16px 8px 24px;
 }
@@ -210,13 +212,16 @@ margin-bottom: 40px;
 .adopted-gallery {
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
+    justify-content: space-between;
+    
+    row-gap: 16px;
     width: 100%;
 }
 
 .gallery-item {
     border-radius: 16px;
     overflow: hidden;
+    
     /* flex-basis: calc((100% - 5 * 16px) / 6); */
 }
 
